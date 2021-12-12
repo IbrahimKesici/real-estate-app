@@ -16,7 +16,7 @@ export const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, link
       <Button fontSize='xl'>
         <Link href={linkName}><a>{buttonText}</a></Link>
       </Button>
-    </Box>
+    </Box >
   </Flex>
 );
 
